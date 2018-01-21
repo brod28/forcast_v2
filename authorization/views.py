@@ -23,7 +23,7 @@ class Login(APIView):
         if user is not None:
             
             # getting or creating token to response back 
-            Token.objects.get_or_create(user=request.user)
+            token,created = Token.objects.get_or_create(user=request.user)
 
             if not created:
                 # update the created time of the token to keep it valid
