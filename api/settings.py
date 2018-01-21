@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 """
 Django settings for api project.
 
@@ -126,4 +124,3 @@ PROJECT_ROOT = path.dirname(path.abspath(path.dirname(__file__)))
 STATIC_ROOT = path.join(PROJECT_ROOT, 'static').replace('\\', '/') 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = ()
->>>>>>> e77fefcfa7b6bebdce531bd6254cb014aa3f5293
